@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="The ultimate Bulma CSS Mega Menu with dropdown">
+	<meta name="keywords" content="BulmaCSS, Bulma, MegaMenu, BulmaMegaMenu, dropdown">
+	<meta name="author" content="Manos Vasilakis - Advizor.gr">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bulma CSS Mega Menu</title>
+	<link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+	<header>
+		<!-- <Advizor Mega Menu> -->
+		<nav class="navbar is-fixed-top is-white" role="navigation" aria-label="main navigation">
+			<div class="container">
+
+				<div class="navbar-brand">
+					<a href="">
+						<img src="./img/logo.svg" style="min-height: 60px">
+					</a>
+					<a  class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="mega-menu">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+
+				<div id="mega-menu" class="navbar-menu">
+
+					<div class="navbar-start">
+					</div>
+
+					<div class="navbar-end has-text-weight-semibold">
+						<div class="navbar-item">
+							<a href="#" class="navbar-item active">HOME</a>
+							<a href="#" class="navbar-item">ABOUT US</a>
+
+							<!-- services dropdown -->
+							<div id="navbar-dropdown1-services" class="navbar-item has-dropdown is-mega">
+								<a class="navbar-link" onclick="navbarDropdownToggleActive(1);">SERVICES</a>
+								<div class="navbar-dropdown navbar-dropdown-services">
+									<div class="container is-fluid">
+										<div class="columns">
+											<div class="column is-one-third">
+												<div class="columns">
+													<div class="column is-full is-centered pt-5 pb-0">
+														<a href="">
+															<img class="image" style="min-height: 55px; width: 100%;" src="./img/mega-menu/services/logistikes-ypiresies.png" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered has-text-centered">
+														<a href="" class="title is-size-6 navbar-dropdown-inner-link">LOGISTIC SERVICES</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered pt-0 has-text-weight-light">
+														<p class="has-text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, earum.</p>
+													</div>
+												</div>
+											</div>
+											<div class="column">
+												<div class="columns">
+													<div class="column is-full is-centered pt-5 pb-0">
+														<a href="">
+															<img class="image" style="min-height: 55px; width: 100%;" src="./img/mega-menu/services/forotexnikes-ypiresies.jpg" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered has-text-centered">
+														<a href="" class="title is-size-6 navbar-dropdown-inner-link">TAX SERVICES</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered pt-0">
+														<p class="has-text-dark has-text-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, perspiciatis.</p>
+													</div>
+												</div>
+											</div>
+											<div class="column">
+												<div class="columns">
+													<div class="column is-full is-centered pt-5 pb-0">
+														<a href="">
+															<img class="image" style="min-height: 55px; width: 100%;" src="./img/mega-menu/services/diaxeirish-misthodosias.png" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered has-text-centered">
+														<a href="" class="title is-size-6 navbar-dropdown-inner-link">PAYROLL MANAGEMENT</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered pt-0">
+														<p class="has-text-dark has-text-weight-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, laboriosam.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr class="navbar-divider">
+									<a class="navbar-item">Report an issue</a>
+								</div>
+							</div>
+							<!-- /services dropdown -->
+
+							<!-- organization-services dropdown -->
+							<div id="navbar-dropdown2-organization-services" class="navbar-item has-dropdown is-mega">
+								<a class="navbar-link"onclick="navbarDropdownToggleActive(2);">ORGANIZATION</a>
+								<div class="navbar-dropdown navbar-dropdown-services">
+									<div class="container is-fluid">
+										<div class="columns">
+											<div class="column is-one-third">
+												<div class="columns">
+													<div class="column is-full is-centered pt-5 pb-0">
+														<a href="">
+															<img class="image" style="min-height: 55px; width: 100%;" src="./img/mega-menu/organization-services/yphresies-mixanografisis.jpg" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered has-text-centered">
+														<a href="" class="title is-size-6 navbar-dropdown-inner-link">COMPUTER SERVICES</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered pt-0">
+														<p class="has-text-dark has-text-weight-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, illum.</p>
+													</div>
+												</div>
+											</div>
+											<div class="column">
+												<div class="columns">
+													<div class="column is-full is-centered pt-5 pb-0">
+														<a href="">
+															<img class="image" style="min-height: 55px; width: 100%;" src="./img/mega-menu/organization-services/symbouleytikes_ypiresies.jpg" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered has-text-centered">
+														<a href="" class="title is-size-6 navbar-dropdown-inner-link">CONSULTANT SERVICES</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered pt-0">
+														<p class="has-text-dark has-text-weight-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa?</p>
+													</div>
+												</div>
+											</div>
+											<div class="column">
+												<div class="columns">
+													<div class="column is-full is-centered pt-5 pb-0">
+														<a href="">
+															<img class="image" style="min-height: 55px; width: 100%;" src="./img/mega-menu/organization-services/ypiresies_ekpaideusis.png" alt="">
+														</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered has-text-centered">
+														<a href="" class="title is-size-6 navbar-dropdown-inner-link">EDUCATION SERVICES</a>
+													</div>
+												</div>
+												<div class="columns">
+													<div class="column is-full is-centered pt-0">
+														<p class="has-text-dark has-text-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, et.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr class="navbar-divider">
+									<a class="navbar-item">Report an issue</a>
+								</div>
+							</div>
+							<!-- /organization-services dropdown -->
+							<a href="" class="navbar-item">BLOG</a>
+							<a href="" class="navbar-item">CONTACT</a>
+							<a class="navbar-item">
+								<label class="switch">
+									<input type="checkbox" id="dark-mode-toggle-switch">
+									<span class="switch-slider round"></span>
+								</label>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</nav>
+			<!-- <Advizor Mega Menu> -->
+	</header>
+
+	<main class="is-dark-moded">
+		<section id="main-section" class="section is-large mt-6 has-background-transparent">
+			<div class="container has-text-centered">
+				<h1 class="title has-text-white is-size-1-tablet has-text-weight-medium pb-5 has-shadow-black-2px">
+					Lorem ipsum dolor sit.
+				</h1>
+				<h5 class="subtitle has-text-white is-size-4 has-shadow-black-1px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem.</h5>
+			</div>
+		</section>
+
+		<div class="container is-dark-moded pt-6">
+			<div class="content">
+				<h1 class="has-text-centered">Hello World</h1>
+				<p>Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. Sub<sub>script</sub> works as well!</p>
+				<h2>Second level</h2>
+				<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+				<ul>
+					<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+					<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+					<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+					<li>Ut non enim metus.</li>
+				</ul>
+				<h3>Third level</h3>
+				<p>Quisque ante lacus, malesuada ac auctor vitae, congue <a href="#">non ante</a>. Phasellus lacus ex, semper ac tortor nec, fringilla condimentum orci. Fusce eu rutrum tellus.</p>
+				<ol>
+					<li>Donec blandit a lorem id convallis.</li>
+					<li>Cras gravida arcu at diam gravida gravida.</li>
+					<li>Integer in volutpat libero.</li>
+					<li>Donec a diam tellus.</li>
+					<li>Aenean nec tortor orci.</li>
+					<li>Quisque aliquam cursus urna, non bibendum massa viverra eget.</li>
+					<li>Vivamus maximus ultricies pulvinar.</li>
+				</ol>
+				<blockquote>Ut venenatis, nisl scelerisque sollicitudin fermentum, quam libero hendrerit ipsum, ut blandit est tellus sit amet turpis.</blockquote>
+				<p>Quisque at semper enim, eu hendrerit odio. Etiam auctor nisl et <em>justo sodales</em> elementum. Maecenas ultrices lacus quis neque consectetur, et lobortis nisi molestie.</p>
+				<p>Sed sagittis enim ac tortor maximus rutrum. Nulla facilisi. Donec mattis vulputate risus in luctus. Maecenas vestibulum interdum commodo.</p>
+				<dl>
+					<dt>Web</dt>
+					<dd>The part of the Internet that contains websites and web pages</dd>
+					<dt>HTML</dt>
+					<dd>A markup language for creating web pages</dd>
+					<dt>CSS</dt>
+					<dd>A technology to make HTML look better</dd>
+				</dl>
+				<p>Suspendisse egestas sapien non felis placerat elementum. Morbi tortor nisl, suscipit sed mi sit amet, mollis malesuada nulla. Nulla facilisi. Nullam ac erat ante.</p>
+				<h4>Fourth level</h4>
+				<p>Nulla efficitur eleifend nisi, sit amet bibendum sapien fringilla ac. Mauris euismod metus a tellus laoreet, at elementum ex efficitur.</p>
+				<pre>
+			&lt;!DOCTYPE html&gt;
+			&lt;html&gt;
+				&lt;head&gt;
+					&lt;title&gt;Hello World&lt;/title&gt;
+				&lt;/head&gt;
+				&lt;body&gt;
+					&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.&lt;/p&gt;
+				&lt;/body&gt;
+			&lt;/html&gt;
+			</pre>
+				<p>Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.</p>
+				<table>
+					<thead>
+						<tr>
+							<th>One</th>
+							<th>Two</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Three</td>
+							<td>Four</td>
+						</tr>
+						<tr>
+							<td>Five</td>
+							<td>Six</td>
+						</tr>
+						<tr>
+							<td>Seven</td>
+							<td>Eight</td>
+						</tr>
+						<tr>
+							<td>Nine</td>
+							<td>Ten</td>
+						</tr>
+						<tr>
+							<td>Eleven</td>
+							<td>Twelve</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>Phasellus porttitor enim id metus volutpat ultricies. Ut nisi nunc, blandit sed dapibus at, vestibulum in felis. Etiam iaculis lorem ac nibh bibendum rhoncus. Nam interdum efficitur ligula sit amet ullamcorper. Etiam tristique, leo vitae porta faucibus, mi lacus laoreet metus, at cursus leo est vel tellus. Sed ac posuere est. Nunc ultricies nunc neque, vitae ultricies ex sodales quis. Aliquam eu nibh in libero accumsan pulvinar. Nullam nec nisl placerat, pretium metus vel, euismod ipsum. Proin tempor cursus nisl vel condimentum. Nam pharetra varius metus non pellentesque.</p>
+				<h5>Fifth level</h5>
+				<p>Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.</p>
+				<figure>
+					<img src="https://bulma.io/images/placeholders/256x256.png">
+					<img src="https://bulma.io/images/placeholders/256x256.png">
+					<figcaption>
+						Figure 1: Some beautiful placeholders
+					</figcaption>
+				</figure>
+				<h6>Sixth level</h6>
+				<p class="pb-4">Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
+			</div>
+		</div>
+
+	</main>
+
+
+
+	<script type="text/javascript" src="./scripts/jquery-3.6.0.min.js"></script>
+
+	<script type="text/javascript" src="./scripts/mega-menu.js"></script>
+	<script type="text/javascript" src="./scripts/dark-mode-toggle.js"></script>
+
+</body>
+</html>
